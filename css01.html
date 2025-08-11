@@ -7,6 +7,16 @@
   <title>CSS Inline</title>
   <!-- Internal style -->
   <style>
+    /* normalize */
+    /* 태그 표기법 */
+    html, body {
+      margin: 0; /* 바깥쪽 여백 */
+      padding: 0; /* 안쪽 여백 */
+    }
+    div {
+      text-align: center;
+    }
+
     /* class 표기법 */
     .border-blue-bg-yellow {
       text-align: center; 
@@ -14,6 +24,23 @@
       color: #cb0dfa; 
       background-color: #ffff00; 
       border: 5px dashed #155f9c;
+    }
+
+    .box01 {
+      border: 5px solid #f00;
+      /* margin: 30px; */
+      /* margin: 30px 0 60px 0; */
+      /* margin: 30px 60px; */
+      /* margin-top: 30px;
+      margin-bottom: 60px;
+      margin-left: 0;
+      margin-right: 0; */
+      margin: 30px 0;
+    }
+
+    .box02 {
+      border: 5px solid #00f; 
+      padding: 0;
     }
   </style>
 </head>
@@ -25,6 +52,8 @@
     바탕색은 노란색
   </div>
   <div class="border-blue-bg-yellow">바탕색은 노란색2</div>
-
+  <div class="box01">가</div>
+  <div class="box02">나</div>
+  <div style="border: 10px solid darkseagreen">다</div>
 </body>
 </html>
