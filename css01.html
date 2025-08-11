@@ -1,59 +1,103 @@
 <!-- CSS: Cascading Style Sheet -->
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Inline</title>
-  <!-- Internal style -->
-  <style>
-    /* normalize */
-    /* 태그 표기법 */
-    html, body {
-      margin: 0; /* 바깥쪽 여백 */
-      padding: 0; /* 안쪽 여백 */
-    }
-    div {
-      text-align: center;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Inline</title>
+    <!-- Internal style -->
+    <style>
+      @font-face {
+        font-family: "Pretendard";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+          format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
 
-    /* class 표기법 */
-    .border-blue-bg-yellow {
-      text-align: center; 
-      font-size: 30px; 
-      color: #cb0dfa; 
-      background-color: #ffff00; 
-      border: 5px dashed #155f9c;
-    }
+      @font-face {
+        font-family: "Pretendard";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+          format("woff");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
 
-    .box01 {
-      border: 5px solid #f00;
-      /* margin: 30px; */
-      /* margin: 30px 0 60px 0; */
-      /* margin: 30px 60px; */
-      /* margin-top: 30px;
+      @font-face {
+        font-family: "Pretendard";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+          format("woff");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Pretendard";
+        src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+          format("woff");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* normalize */
+      /* 태그 표기법 */
+      html,
+      body {
+        margin: 0; /* 바깥쪽 여백 */
+        padding: 0; /* 안쪽 여백 */
+      }
+      div {
+        text-align: center;
+      }
+
+      /* class 표기법 */
+      .border-blue-bg-yellow {
+        text-align: center;
+        font-size: 30px;
+        color: #cb0dfa;
+        background-color: #ffff00;
+        border: 5px dashed #155f9c;
+      }
+
+      .box01 {
+        border: 5px solid #f00;
+        /* margin: 30px; */
+        /* margin: 30px 0 60px 0; */
+        /* margin: 30px 60px; */
+        /* margin-top: 30px;
       margin-bottom: 60px;
       margin-left: 0;
       margin-right: 0; */
-      margin: 30px 0;
-    }
+        margin: 30px 0;
+      }
 
-    .box02 {
-      border: 5px solid #00f; 
-      padding: 0;
-    }
-  </style>
-</head>
-<body>
-  <!-- px, em, rem, vw, vh, % -->
+      .box02 {
+        border: 5px solid #00f;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- px, em, rem, vw, vh, % -->
 
-  <!-- inline style -->
-  <div style="text-align: center; font-size: 30px; color: #cb0dfa; background-color: #ffff00; border: 5px solid #155f9c;">
-    바탕색은 노란색
-  </div>
-  <div class="border-blue-bg-yellow">바탕색은 노란색2</div>
-  <div class="box01">가</div>
-  <div class="box02">나</div>
-  <div style="border: 10px solid darkseagreen">다</div>
-</body>
+    <!-- inline style -->
+    <div
+      style="
+        text-align: center;
+        font-size: 30px;
+        color: #cb0dfa;
+        background-color: #ffff00;
+        border: 5px solid #155f9c;
+      "
+    >
+      바탕색은 노란색
+    </div>
+    <div class="border-blue-bg-yellow">바탕색은 노란색2</div>
+    <div class="box01">가</div>
+    <div class="box02">나</div>
+    <div style="border: 10px solid darkseagreen">다</div>
+  </body>
 </html>
