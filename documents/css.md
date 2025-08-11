@@ -19,6 +19,11 @@
   - line-height: 줄간(높이)
   - letter-spacing: 자간
 
+## inherit(상속)
+- 글자, 줄 관련은 기본 상속된다.
+- text-align: 상속된다
+- 사이즈, 디자인과 관련된 것(margin, padding, border, background-color)은 상속되지 않는다.
+
 ## size
 
 
