@@ -1,8 +1,4 @@
 # CSS
-## layout
-
-### block
-body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, li, ol, p, ul
 
 ## font
   - color: 폰트 색상
