@@ -1,0 +1,11 @@
+.gnb-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+/*
+.name.name2 : name1과 name2가 다 있는 태그
+.name .name2 : name1 자손중 name2를 가진 태그
+.name > .name2 : name1 바로 밑(자식)에 name2를 가진 태그
+*/
