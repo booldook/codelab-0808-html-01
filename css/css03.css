@@ -11,3 +11,7 @@
   min-width: 480px;
   border: 10px solid red;
 }
+
+.img-float {
+  float: left;
+}
