@@ -16,6 +16,11 @@
 .header {
   border: 3px solid red;
 }
+.header::after {
+  display: block;
+  content: "";
+  clear: both;
+}
 .logo {
   border: 3px solid blue;
   float: left;

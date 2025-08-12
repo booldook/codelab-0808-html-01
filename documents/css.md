@@ -36,3 +36,5 @@
 - border: 1px solid #f00;
 - background-color: #0f0;
 
+### flex 참고사이트
+- [css-tricks flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
