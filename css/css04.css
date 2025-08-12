@@ -13,3 +13,21 @@
   /* border: 10px solid red; */
 }
 
+.header {
+  border: 3px solid red;
+}
+.logo {
+  border: 3px solid blue;
+  float: left;
+}
+.nav {
+  border: 3px solid green;
+  float: right;
+}
+.item {
+  border: 3px solid grey;
+  float: left;
+}
+.clear {
+  clear: both;
+}
