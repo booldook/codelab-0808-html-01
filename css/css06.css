@@ -9,3 +9,15 @@
 .name .name2 : name1 자손중 name2를 가진 태그
 .name > .name2 : name1 바로 밑(자식)에 name2를 가진 태그
 */
+.gnb-wrapper > .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb-wrapper > .header-wrapper > .logo {
+  font-size: 40px;
+}
+.gnb-wrapper > .header-wrapper > .nav {
+  display: flex;
+  gap: 0 20px;
+}
