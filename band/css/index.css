@@ -34,3 +34,8 @@
   color: #fff;
   padding: 1em;
 }
+
+/* banner-wrapper */
+.banner-wrapper > .banner-img {
+  width: 100%;
+}
