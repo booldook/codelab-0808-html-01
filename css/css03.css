@@ -1,0 +1,13 @@
+/* 적응형 */
+.wrapper {
+  width: 1280px;
+  margin: auto;
+}
+
+/* 반응형 */
+.rel {
+  width: 100%;
+  max-width: 1280px;
+  min-width: 480px;
+  border: 10px solid red;
+}
