@@ -1,5 +1,6 @@
 .containers {
   width: 100%;
+  padding-bottom: 600px;
 }
 
 .containers > .header-container {
@@ -145,9 +146,18 @@
 }
 .tour-container > .tour-wrapper > .tour-dates > li.tour-date {
   border-bottom: 1px solid var(--text-dark-25);
+  padding: 1em;
+  display: flex;
+  align-items: center;
 }
 .tour-container > .tour-wrapper > .tour-dates > li.tour-date:last-child {
   border-bottom: none;
 }
 .tour-container > .tour-wrapper > .tour-dates > .tour-date > .soldout {
+  background-color: var(--bg-active);
+  color: var(--text-light);
+  font-size: 0.875em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  margin-left: 1em;
 }
