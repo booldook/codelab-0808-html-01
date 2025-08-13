@@ -146,9 +146,10 @@
 }
 .tour-container > .tour-wrapper > .tour-dates > li.tour-date {
   border-bottom: 1px solid var(--text-dark-25);
-  padding: 1em;
+  padding: 0.625em 1em;
   display: flex;
   align-items: center;
+  color: var(--text-dark-625);
 }
 .tour-container > .tour-wrapper > .tour-dates > li.tour-date:last-child {
   border-bottom: none;
@@ -160,4 +161,13 @@
   padding: 0.25em;
   border-radius: 0.25em;
   margin-left: 1em;
+}
+.tour-container > .tour-wrapper > .tour-dates > .tour-date > .tickets {
+  background-color: var(--text-dark);
+  color: var(--text-light);
+  font-size: 0.875em;
+  padding: 0.25em 0.75em;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 1em;
 }
