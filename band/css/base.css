@@ -2,11 +2,15 @@
 
 /* 변수 */
 :root {
-  --text-primary: #111;
+  --text-dark: #111;
+  --text-light: #f8f8f8;
+
+  --bg-active: #ff5100;
 }
 
 :root[data-darktheme="true"] {
-  --text-primary: #f8f8f8;
+  --text-dark: #f8f8f8;
+  --text-light: #111;
 }
 
 /* 전체 */
