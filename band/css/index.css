@@ -105,9 +105,20 @@
   color: var(--text-dark-625);
   text-align: justify;
   line-height: 1.5em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .band-container > .band-wrapper > .band-members {
+  display: flex;
+  justify-content: space-around;
 }
 .band-container > .band-wrapper > .band-members > .band-member {
+  padding: 0 5%;
+}
+.band-container > .band-wrapper > .band-members > .band-member > .band-nm {
+  text-align: center;
+  padding: 1.5em;
+}
+.band-container > .band-wrapper > .band-members > .band-member > .band-img {
+  width: 100%;
+  border-radius: 0.325em;
 }
