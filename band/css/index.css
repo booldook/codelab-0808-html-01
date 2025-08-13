@@ -24,11 +24,11 @@
 .header-wrapper > .nav-wrap {
   display: flex;
 }
-.header-wrapper > .nav-wrap > a {
+.header-wrapper > .nav-wrap > .item {
   padding: 1em;
   color: var(--text-light);
 }
-.header-wrapper > .nav-wrap > a:hover {
+.header-wrapper > .nav-wrap > .item:hover {
   padding: 1em;
   color: var(--text-dark);
   background-color: var(--text-light);
