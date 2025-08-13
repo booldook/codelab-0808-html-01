@@ -24,16 +24,33 @@
 .header-wrapper > .nav-wrap {
   display: flex;
 }
-.header-wrapper > .nav-wrap > .item {
+.header-wrapper > .nav-wrap .item {
   padding: 1em;
   color: var(--text-light);
 }
-.header-wrapper > .nav-wrap > .item:hover {
-  padding: 1em;
+.header-wrapper > .nav-wrap .item:hover {
   color: var(--text-dark);
   background-color: var(--text-light);
 }
-.header-wrapper > .nav-wrap > .sub-nav-wrap {
+.header-wrapper > .nav-wrap > :last-child {
+  position: relative;
+}
+.header-wrapper > .nav-wrap > :last-child:hover > .sub-nav-wrap {
+  display: block;
+}
+.header-wrapper > .nav-wrap .sub-nav-wrap {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--text-light);
+}
+.header-wrapper > .nav-wrap .sub-nav-wrap > .sub-item {
+  color: var(--text-dark);
+  padding: 0.75em 1em;
+}
+.header-wrapper > .nav-wrap .sub-nav-wrap > .sub-item:hover {
+  background-color: #ccc;
 }
 .header-wrapper > .search-btn {
   color: var(--text-light);
