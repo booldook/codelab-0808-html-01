@@ -82,3 +82,32 @@
   font-size: 1.5em; /* 24px; */
   margin-bottom: 0.5em; /* 12px */
 }
+
+/* band-container */
+.band-container > .band-wrapper {
+  width: 100%;
+  max-width: 820px;
+  margin: 7em auto;
+}
+.band-container > .band-wrapper > .band-title {
+  font-size: 2em;
+  letter-spacing: 0.325em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.band-container > .band-wrapper > .band-slogan {
+  font-style: italic;
+  color: var(--text-gray);
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+.band-container > .band-wrapper > .band-content {
+  color: var(--text-dark-625);
+  text-align: justify;
+  line-height: 1.5em;
+  margin-bottom: 5em;
+}
+.band-container > .band-wrapper > .band-members {
+}
+.band-container > .band-wrapper > .band-members > .band-member {
+}
