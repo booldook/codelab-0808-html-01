@@ -8,6 +8,9 @@
   background-color: #111;
 }
 
+.containers > .container {
+}
+
 .containers > .banner-container {
   position: relative;
 }
@@ -16,12 +19,30 @@
 }
 
 .containers > .tour-container {
+  background-color: var(--text-dark);
 }
 
 .containers > .contact-container {
 }
 
 .containers > .footer-container {
+}
+.container > .wrapper {
+  width: 100%;
+  max-width: 820px;
+  margin: 7em auto;
+}
+.container > .wrapper > .title {
+  font-size: 2em;
+  letter-spacing: 0.325em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.container > .wrapper > .slogan {
+  font-style: italic;
+  color: var(--text-gray);
+  text-align: center;
+  margin-bottom: 1.25em;
 }
 
 /* .header-container */
@@ -84,23 +105,10 @@
 }
 
 /* band-container */
-.band-container > .band-wrapper {
-  width: 100%;
-  max-width: 820px;
-  margin: 7em auto;
-}
 .band-container > .band-wrapper > .band-title {
-  font-size: 2em;
-  letter-spacing: 0.325em;
-  text-align: center;
-  margin-bottom: 1em;
+  color: var(--text-dark);
 }
-.band-container > .band-wrapper > .band-slogan {
-  font-style: italic;
-  color: var(--text-gray);
-  text-align: center;
-  margin-bottom: 1.25em;
-}
+
 .band-container > .band-wrapper > .band-content {
   color: var(--text-dark-625);
   text-align: justify;
@@ -121,4 +129,12 @@
 .band-container > .band-wrapper > .band-members > .band-member > .band-img {
   width: 100%;
   border-radius: 0.325em;
+}
+
+/* tour-container */
+.tour-container > .tour-wrapper {
+  padding: 5em 0;
+}
+.tour-container > .tour-wrapper > .tour-title {
+  color: var(--text-light);
 }
