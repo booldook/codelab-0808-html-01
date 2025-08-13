@@ -30,7 +30,9 @@
 .container > .wrapper {
   width: 100%;
   max-width: 820px;
-  margin: 7em auto;
+  margin: 0 auto;
+  padding-top: 7em;
+  padding-bottom: 7em;
 }
 .container > .wrapper > .title {
   font-size: 2em;
@@ -133,8 +135,19 @@
 
 /* tour-container */
 .tour-container > .tour-wrapper {
-  padding: 5em 0;
 }
 .tour-container > .tour-wrapper > .tour-title {
   color: var(--text-light);
+}
+.tour-container > .tour-wrapper > ul.tour-dates {
+  background-color: var(--text-light);
+  border: 1px solid var(--text-dark-25);
+}
+.tour-container > .tour-wrapper > .tour-dates > li.tour-date {
+  border-bottom: 1px solid var(--text-dark-25);
+}
+.tour-container > .tour-wrapper > .tour-dates > li.tour-date:last-child {
+  border-bottom: none;
+}
+.tour-container > .tour-wrapper > .tour-dates > .tour-date > .soldout {
 }
