@@ -252,3 +252,73 @@
 }
 
 /* contact-container */
+.contact-container > .contact-wrapper {
+}
+.contact-container > .contact-wrapper > .contact-slogan {
+  margin-bottom: 3.5em;
+}
+.contact-container > .contact-wrapper > .contact-contents {
+  display: flex;
+}
+.contact-container > .contact-wrapper > .contact-contents > .wrap {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.contact-container > .contact-wrapper > .contact-contents > .info-wrap {
+}
+.contact-container
+  > .contact-wrapper
+  > .contact-contents
+  > .info-wrap
+  > .info-item {
+  padding: 0.5em 0;
+}
+.contact-container
+  > .contact-wrapper
+  > .contact-contents
+  > .info-wrap
+  > .info-item
+  > .info-icon {
+  margin-right: 0.5em;
+}
+.contact-container > .contact-wrapper > .contact-contents > .form-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-container > .contact-wrapper > .contact-contents > .form-wrap input {
+  width: calc(50% - 8px);
+  margin: 0 0.5em 0.5em 0;
+}
+.contact-container
+  > .contact-wrapper
+  > .contact-contents
+  > .form-wrap
+  .btn-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-container
+  > .contact-wrapper
+  > .contact-contents
+  > .form-wrap
+  .btn-wrap
+  > button {
+  background-color: var(--text-dark);
+  color: var(--text-light);
+  padding: 0.625em 1em;
+  transition: all 0.5s ease-in-out;
+  margin-right: 0.625em;
+}
+.contact-container
+  > .contact-wrapper
+  > .contact-contents
+  > .form-wrap
+  .btn-wrap
+  > button:hover {
+  background-color: var(--text-d);
+  color: var(--text-dark);
+}
+.contact-container > .location-wrapper {
+}
