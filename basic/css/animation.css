@@ -40,12 +40,33 @@ animation 도우미 : transform
     transform: rotate(360deg);
   }
 }
-
+@keyframes anim2 {
+  0% {
+    opacity: 0;
+    transform: rotate(0);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(360deg);
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
+/* duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
 .containers > .box2 {
-  animation-name: anim;
+  animation-name: anim2;
   animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: 3;
-  animation-delay: 2s;
-  /* animation: anim 2s linear infinite 2s; */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-play-state: paused;
+  /* animation: 2s linear 2s 2 ; */
+}
+.containers > .box2:hover {
+  animation-play-state: running;
 }
