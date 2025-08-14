@@ -143,6 +143,7 @@
 .tour-container > .tour-wrapper > ul.tour-dates {
   background-color: var(--text-light);
   border: 1px solid var(--text-dark-25);
+  margin-bottom: 1.5em;
 }
 .tour-container > .tour-wrapper > .tour-dates > li.tour-date {
   border-bottom: 1px solid var(--text-dark-25);
@@ -170,4 +171,70 @@
   border-radius: 50%;
   margin-left: auto;
   margin-right: 1em;
+}
+
+.tour-container > .tour-wrapper > .tour-cities {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-container > .tour-wrapper > .tour-cities > .tour-city {
+  flex: 0 0 32%;
+}
+.tour-container > .tour-wrapper > .tour-cities > .tour-city > .img-wrap {
+}
+.tour-container > .tour-wrapper > .tour-cities > .tour-city > .img-wrap > img {
+  width: 100%;
+}
+.tour-container > .tour-wrapper > .tour-cities > .tour-city > .tour-contents {
+  background-color: var(--text-light);
+  padding: 1em;
+}
+.tour-container
+  > .tour-wrapper
+  > .tour-cities
+  > .tour-city
+  > .tour-contents
+  > .city-nm {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.tour-container
+  > .tour-wrapper
+  > .tour-cities
+  > .tour-city
+  > .tour-contents
+  > .city-date {
+  font-size: 0.875em;
+  color: var(--text-gray);
+  margin-bottom: 1em;
+}
+.tour-container
+  > .tour-wrapper
+  > .tour-cities
+  > .tour-city
+  > .tour-contents
+  > .city-content {
+  font-size: 0.875em;
+  color: var(--text-dark-5);
+  margin-bottom: 1em;
+}
+.tour-container
+  > .tour-wrapper
+  > .tour-cities
+  > .tour-city
+  > .tour-contents
+  > .buy-btn {
+  display: inline-block;
+  background-color: var(--text-dark);
+  color: var(--text-light);
+  padding: 0.625em 1em;
+}
+.tour-container
+  > .tour-wrapper
+  > .tour-cities
+  > .tour-city
+  > .tour-contents
+  > .buy-btn:hover {
+  background-color: var(--text-d);
+  color: var(--text-dark);
 }

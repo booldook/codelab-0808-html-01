@@ -2,6 +2,15 @@
 
 /* 변수 */
 :root {
+  --text-3: #333;
+  --text-5: #555;
+  --text-7: #777;
+  --text-9: #999;
+  --text-a: #aaa;
+  --text-b: #bbb;
+  --text-c: #ccc;
+  --text-d: #ddd;
+  --text-e: #eee;
   --text-dark: #111;
   --text-dark-875: rgba(0, 0, 0, 0.875);
   --text-dark-75: rgba(0, 0, 0, 0.75);
@@ -62,6 +71,7 @@ button {
 fieldset,
 img {
   border: 0 none;
+  vertical-align: middle;
 }
 dl,
 ul,
