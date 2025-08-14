@@ -1,0 +1,25 @@
+.containers {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 60px;
+}
+.containers .title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.containers .form-wrapper {
+  border-top: 1px solid var(--text-a);
+}
+.containers .form-wrapper > .form-item {
+  display: flex;
+  border-bottom: 1px solid var(--text-a);
+  padding: 1em 0.5em 0.25em 0.5em;
+}
+.containers .form-wrapper > .form-item > .form-nm {
+  flex-basis: 20%;
+  font-weight: bold;
+}
+.containers .form-wrapper > .form-item > .form-data {
+  flex-grow: 1;
+}
