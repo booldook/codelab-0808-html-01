@@ -23,3 +23,17 @@
 .containers .form-wrapper > .form-item > .form-data {
   flex-grow: 1;
 }
+.containers .btn-wrapper {
+  text-align: center;
+  padding: 1em;
+}
+.containers .btn-wrapper > button {
+  border: 1px solid var(--text-9);
+  padding: 0.5em 0.875em;
+}
+.containers .btn-wrapper > .join-btn {
+  background-color: aquamarine;
+}
+.containers .btn-wrapper > .cancel-btn {
+  background-color: var(--text-d);
+}
