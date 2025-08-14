@@ -180,9 +180,18 @@ textarea:focus {
 select {
   padding: 0.5em 0.75em 0.5em 0.25em;
 }
+textarea {
+  font-family: inherit;
+}
 
 /* + : sibling 연산자 */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.25em;
+  cursor: pointer;
+}
 input[type="radio"] + label,
 input[type="checkbox"] + label {
   margin-right: 1em;
+  cursor: pointer;
 }
