@@ -15,6 +15,7 @@
   display: flex;
   border-bottom: 1px solid var(--text-a);
   min-height: 50px;
+  padding: 0.25em 0;
 }
 .containers .form-wrapper > .form-item > .form-nm {
   flex-basis: 20%;
