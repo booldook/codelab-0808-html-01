@@ -1,6 +1,5 @@
 .containers {
   width: 100%;
-  padding-bottom: 600px;
 }
 
 .containers > .header-container {
@@ -27,6 +26,8 @@
 }
 
 .containers > .footer-container {
+  padding: 6em 0;
+  text-align: center;
 }
 .container > .wrapper {
   width: 100%;
@@ -321,4 +322,21 @@
   color: var(--text-dark);
 }
 .contact-container > .location-wrapper {
+}
+
+/* footer-container */
+.footer-container > .link-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.footer-container > .link-wrap > .link-item {
+  margin: 0 0.25em;
+  color: var(--text-7);
+}
+.footer-container > .link-wrap > .link-item:hover {
+  opacity: 0.6;
+}
+.footer-container > .copyright-wrap {
+  color: var(--text-7);
 }
