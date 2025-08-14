@@ -6,6 +6,10 @@
   display: flex;
   justify-content: space-between;
   background-color: #111;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 10px;
 }
 
 .containers > .container {
@@ -322,6 +326,10 @@
   color: var(--text-dark);
 }
 .contact-container > .location-wrapper {
+  height: 600px;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* footer-container */

@@ -17,14 +17,14 @@
     <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
-    <div class="containers">
+    <div class="containers" id="home">
       <!-- header.header-container+section.banner-container+section.band-container+section.tour-container+section.map-wrapper+footer.footer-container -->
       <header class="header-container">
         <nav class="nav-wrap">
-          <div class="item"><a href="#">HOME</a></div>
-          <div class="item"><a href="#">BAND</a></div>
-          <div class="item"><a href="#">TOUR</a></div>
-          <div class="item"><a href="#">CONTACT</a></div>
+          <div class="item"><a href="#home">HOME</a></div>
+          <div class="item"><a href="#band">BAND</a></div>
+          <div class="item"><a href="#tour">TOUR</a></div>
+          <div class="item"><a href="#contact">CONTACT</a></div>
           <div class="item">
             <a href="#">MORE<span class="fas fa-caret-down"></span></a>
             <ul class="sub-nav-wrap">
@@ -51,7 +51,7 @@
           <div>We had the best time playing at Venice Beach!</div>
         </article>
       </section>
-      <section class="container band-container">
+      <section class="container band-container" id="band">
         <div class="wrapper band-wrapper">
           <h3 class="title band-title">THE BAND</h3>
           <div class="slogan band-slogan">We love music</div>
@@ -98,7 +98,7 @@
         </div>
       </section>
       <!-- section.container.tour-container>.wrapper.tour-wrapper>h3.title.tour-title{TOUR DATES}+.slogan.tour-slogan{Remember to book your tickets!}+ul.tour-dates>li.tour-date*3>div^ul.tour-cities>li.tour-city*3>.img-wrap>img^.tour-contents>h4.tour-nm+.tour-date+.tour-content+a.buy-btn[href=#]{Buy Tickets} -->
-      <section class="container tour-container">
+      <section class="container tour-container" id="tour">
         <div class="wrapper tour-wrapper">
           <h3 class="title tour-title">TOUR DATES</h3>
           <div class="slogan tour-slogan">Remember to book your tickets!</div>
@@ -159,7 +159,7 @@
           </ul>
         </div>
       </section>
-      <section class="container contact-container">
+      <section class="container contact-container" id="contact">
         <div class="wrapper contact-wrapper">
           <h3 class="title contact-title">CONTACT</h3>
           <div class="slogan contact-slogan">Fan? Drop a note!</div>
@@ -188,7 +188,7 @@
           </div>
         </div>
         <div class="location-wrapper">
-          <img src="../images/map.jpg" alt="지도" class="w-100" />
+          <!-- <img src="../images/map.jpg" alt="지도" class="w-100" /> -->
         </div>
       </section>
       <footer class="footer-container">
