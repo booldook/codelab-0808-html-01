@@ -1,0 +1,29 @@
+/*
+- Animation -
+transition: 간편하게
+keyframe: 각잡고...
+animation 도우미 : transform
+*/
+
+.containers {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.containers > .box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 10px solid blue;
+  transition: transform 1s linear;
+}
+
+.containers > .box:hover {
+  /* width: 600px;
+  border-width: 80px; */
+  /* transform: translate(-30px, 80px); */
+  /* transform: rotate(360deg); */
+  /* transform: scale(2); */
+}

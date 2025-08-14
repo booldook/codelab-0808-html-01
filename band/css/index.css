@@ -10,6 +10,7 @@
 }
 
 .containers > .container {
+  border: 5px solid red;
 }
 
 .containers > .banner-container {
