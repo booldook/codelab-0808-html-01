@@ -60,6 +60,17 @@
 .header-container > .nav-wrap {
   display: flex;
 }
+.header-container > .nav-wrap.mobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: var(--text-dark);
+}
+.header-container > .nav-wrap.mobile.hide {
+  display: none;
+}
 .header-container > .nav-wrap .item {
   padding: 1em;
   color: var(--text-light);
