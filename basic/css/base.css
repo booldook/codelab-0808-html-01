@@ -183,6 +183,16 @@ select {
 textarea {
   font-family: inherit;
 }
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 /* + : sibling 연산자 */
 input[type="radio"],

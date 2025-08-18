@@ -1,0 +1,10 @@
+.containers {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containers > h1 {
+  font-size: 2em;
+  margin: 1em auto;
+}
