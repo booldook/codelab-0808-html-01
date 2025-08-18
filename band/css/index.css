@@ -148,9 +148,11 @@
 }
 .band-container > .band-wrapper > .band-members {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .band-container > .band-wrapper > .band-members > .band-member {
+  flex-basis: 33.3333%;
   padding: 0 5%;
 }
 .band-container > .band-wrapper > .band-members > .band-member > .band-nm {
@@ -203,6 +205,7 @@
 
 .tour-container > .tour-wrapper > .tour-cities {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .tour-container > .tour-wrapper > .tour-cities > .tour-city {
@@ -287,6 +290,7 @@
 }
 .contact-container > .contact-wrapper > .contact-contents {
   display: flex;
+  flex-wrap: wrap;
 }
 .contact-container > .contact-wrapper > .contact-contents > .wrap {
   flex-basis: 50%;
@@ -375,6 +379,10 @@
 /* 반응형 */
 /* 태블릿 가로 */
 @media all and (max-width: 992px) {
+  .container > .wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 /* 태블릿 세로, 스마트폰 가로 */
@@ -384,6 +392,19 @@
   }
   .containers > .header-container.mobile {
     display: flex;
+  }
+  .band-container > .band-wrapper > .band-members > .band-member {
+    flex-basis: 100%;
+  }
+  .tour-container > .tour-wrapper > .tour-cities > .tour-city {
+    flex: 0 0 100%;
+  }
+  .contact-container > .contact-wrapper > .contact-contents > .wrap {
+    flex-basis: 100%;
+  }
+  .contact-container > .contact-wrapper > .contact-contents > .form-wrap input {
+    width: 100%;
+    margin: 0 0 0.5em 0;
   }
 }
 
