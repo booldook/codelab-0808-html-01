@@ -1,0 +1,37 @@
+.containers {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containers > h1 {
+  font-size: 2em;
+  margin: 1em auto;
+}
+
+.containers > .box-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containers > .box-wrap > .box {
+  flex-basis: 25%;
+  border: 5px solid #000;
+  font-size: 2em;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .containers > .box-wrap > .box {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .containers > .box-wrap > .box {
+    flex-basis: 100%;
+  }
+}
