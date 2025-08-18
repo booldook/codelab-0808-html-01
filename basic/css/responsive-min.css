@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .containers > h1 {
@@ -15,7 +16,7 @@
 }
 
 .containers > .box-wrap > .box {
-  flex-basis: 25%;
+  flex-basis: 100%;
   border: 5px solid #000;
   font-size: 2em;
   padding: 1em 0;
@@ -26,15 +27,25 @@
 
 /* max-width: PC주력, min-width: mobile주력 */
 /* 381px ~ 700px */
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 381px) {
   .containers > .box-wrap > .box {
     flex-basis: 50%;
   }
 }
 
-/* 0 ~ 380px */
-@media screen and (max-width: 380px) {
+/* 701px ~  */
+@media screen and (min-width: 701px) {
   .containers > .box-wrap > .box {
-    flex-basis: 100%;
+    flex-basis: 25%;
+  }
+}
+
+/* 1201px ~  */
+@media screen and (min-width: 1201px) {
+  .containers {
+    padding: 0;
+  }
+  .containers > .box-wrap > .box {
+    flex-basis: 25%;
   }
 }
