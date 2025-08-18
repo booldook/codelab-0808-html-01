@@ -8,3 +8,31 @@
   font-size: 2em;
   margin: 1em auto;
 }
+
+.table {
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 2em;
+}
+.table thead {
+  border-bottom: 1px solid red;
+}
+.table th,
+.table td {
+  padding: 1em 1.5em;
+}
+.table td {
+  border-bottom: 1px solid black;
+}
+.table th.no,
+.table td.no {
+  font-weight: bold;
+}
+
+.table-span {
+  width: 100%;
+}
+.table-span td {
+  padding: 1em 1.5em;
+  border: 1px solid black;
+}
